@@ -131,19 +131,19 @@ public class Login extends javax.swing.JFrame {
         );
 
         getContentPane().add(jPanel1);
-        jPanel1.setBounds(950, 200, 380, 260);
+        jPanel1.setBounds(910, 200, 380, 260);
 
         jLabel5.setFont(new java.awt.Font("Arial Black", 0, 30)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(0, 255, 255));
         jLabel5.setText("AIRLINE RESERVATION SYSTEM");
         getContentPane().add(jLabel5);
-        jLabel5.setBounds(110, 120, 660, 40);
+        jLabel5.setBounds(110, 390, 660, 40);
 
-        jLabel4.setFont(new java.awt.Font("Arial Black", 0, 75)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Arial Black", 0, 80)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("AIR AIRWAYS");
         getContentPane().add(jLabel4);
-        jLabel4.setBounds(110, 0, 600, 110);
+        jLabel4.setBounds(100, 50, 600, 110);
 
         background.setText("Background");
         getContentPane().add(background);
