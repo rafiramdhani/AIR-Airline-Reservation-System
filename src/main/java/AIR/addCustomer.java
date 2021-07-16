@@ -385,11 +385,7 @@ public class addCustomer extends javax.swing.JFrame {
         String nic = txtno.getText();
         String passport = txtpassport.getText();
         String address = txtaddress.getText();
-
-        DateFormat da = new SimpleDateFormat("yyyy-MM-dd");
-        
-        
-        
+        DateFormat da = new SimpleDateFormat("yyyy-MM-dd");    
         String Gender;
 
         if(j1.isSelected()){
