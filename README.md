@@ -85,7 +85,7 @@ Script dibawah merupakan salah satu contoh script untuk men-generate customerID.
     }                   
 ```
 
-> Contoh hasil Eksport database terdapat di folder database dengan file airline.sql
+> Contoh hasil Eksport database terdapat di file airline.sql
 
 
 Hasil Running Program:
