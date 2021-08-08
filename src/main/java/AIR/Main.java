@@ -147,62 +147,36 @@ public class Main extends javax.swing.JFrame {
 
     private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
         addCustomer cus = new addCustomer();
-        //jDesktopPane1.add(cus);
-        //cus.setVisible(true);
-        
-        //cus.setBackground(new Color(0.0f,0.0f,0.0f,0.0f));
-        //cus.getContentPane().setBackground(color.yellow);
-        //cus.setUndecorated(true);
-        //cus.getContentPane().setBackground(new Color(1.0f,1.0f,1.0f,0.0f));
-        //cus.setBackground(new Color(1.0f,1.0f,1.0f,0.0f));
-        
-        
-        //Main m = new Main();
         this.hide();
         cus.setVisible(true);
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 
     private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2ActionPerformed
-        // TODO add your handling code here:
         searchCustomer scus = new searchCustomer();
-        //jDesktopPane1.add(scus);
-        //scus.setVisible(true);
         this.hide();
         scus.setVisible(true);
     }//GEN-LAST:event_jMenuItem2ActionPerformed
 
     private void jMenuItem4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem4ActionPerformed
-        // TODO add your handling code here:
         addFlight addf = new addFlight();
-        //jDesktopPane1.add(addf);
-        //addf.setVisible(true);
         this.hide();
         addf.setVisible(true);
     }//GEN-LAST:event_jMenuItem4ActionPerformed
 
     private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem3ActionPerformed
-        // TODO add your handling code here:
         ticket t = new ticket();
-        //jDesktopPane1.add(t);
-        //t.setVisible(true);
         this.hide();
         t.setVisible(true);
     }//GEN-LAST:event_jMenuItem3ActionPerformed
 
     private void jMenuItem6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem6ActionPerformed
-        // TODO add your handling code here:
         ticketReport tr = new ticketReport();
-        //jDesktopPane1.add(tr);
-        //tr.setVisible(true);
         this.hide();
         tr.setVisible(true);
     }//GEN-LAST:event_jMenuItem6ActionPerformed
 
     private void jMenuItem5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem5ActionPerformed
-        // TODO add your handling code here:
         userCreation uc = new userCreation();
-        //jDesktopPane1.add(uc);
-        //uc.setVisible(true);
         this.hide();
         uc.setVisible(true);
     }//GEN-LAST:event_jMenuItem5ActionPerformed
