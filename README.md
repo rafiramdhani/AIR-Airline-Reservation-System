@@ -14,6 +14,9 @@ Penjelasan Program
 
 Merupakan file sql yang berada di folder database yang berisi perintah untuk membuat database dan tabel nya. Pada tabel database ini terdiri dari 4 tabel yaitu customer, flight, ticket, dan user. Dan juga terdapat perintah untuk memasukkan data user default yaitu admin agar user dapat masuk ke form main karena pada saat login hanya terdapat memasukkan user dan password saja. 
 
+> Contoh hasil Eksport database terdapat di file airline.sql
+
+
 - **Login.java** / **Login.form**
 
 Merupakan file yang pertama kali dijalankan pada aplikasi ini. Yaitu berisi user dan password login, jadi admin diharuskan memasukkan user nya. Jika sebelumnya belum ada maka menggunakan user default yang sudah terdapat di dalam database yaitu user admin.
@@ -84,9 +87,6 @@ Script dibawah merupakan salah satu contoh script untuk men-generate customerID.
         }
     }                   
 ```
-
-> Contoh hasil Eksport database terdapat di file airline.sql
-
 
 Hasil Running Program:
 
